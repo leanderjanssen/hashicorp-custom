@@ -1,0 +1,25 @@
+### Dist ###
+dist/install.sh
+
+### Ruby ###
+.bundle/
+vendor/
+
+### Vagrant ###
+.vagrant/
+*.box
+
+### Packer ###
+packer_cache/
+packer/variables.json
+
+### Terraform ###
+*.tfstate
+*.tfstate.backup
+*.pptx
+terraform.tfvars
+training.tfvars
+
+terraform/google/account.json
+terraform/terraform.tfvars
+terraform/.terraform/
